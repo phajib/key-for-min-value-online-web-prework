@@ -8,6 +8,10 @@ def key_for_min_value(name_hash)
     if v < smallest_v || smallest_v == nil
       lowest_k = k
       lowest_v = v
+    end
+  end
+  lowest_k
+end
 =begin
     min = v[0]
     v.each do |item|
@@ -17,5 +21,3 @@ def key_for_min_value(name_hash)
     end
     return min
 =end
-  end
-end
