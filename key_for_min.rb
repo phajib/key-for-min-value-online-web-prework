@@ -5,6 +5,5 @@ def key_for_min_value(name_hash)
   name_hash.collect do |k, v|
     v
   end
-
-  puts v
+  v
 end
