@@ -4,6 +4,7 @@
 def key_for_min_value(name_hash)
   name_hash.collect do |k, v|
     k
+=begin
     min = v[0]
     v.each do |item|
       if(item < min)
@@ -11,5 +12,6 @@ def key_for_min_value(name_hash)
       end
     end
     return min
+=end
   end
 end
