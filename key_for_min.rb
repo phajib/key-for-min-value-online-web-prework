@@ -12,12 +12,3 @@ def key_for_min_value(name_hash)
   end
   smallest_k
 end
-=begin
-    min = v[0]
-    v.each do |item|
-      if(item < min)
-			     min = item
-      end
-    end
-    return min
-=end
