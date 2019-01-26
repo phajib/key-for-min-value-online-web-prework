@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   name_hash.collect do |k, v|
-    k, v
+    k
 =begin
     min = v[0]
     v.each do |item|
